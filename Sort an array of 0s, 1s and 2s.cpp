@@ -4,9 +4,8 @@
 #include <vector>
 using namespace std;
 
-
-
-int sort012(int a[], int n)
+    
+void sort012(int a[], int n)
 {
     int i,zero=0,one=0;
     for(i=0;i<n;i++){
@@ -18,5 +17,4 @@ int sort012(int a[], int n)
         else if(one) a[i]=1,one--;
         else a[i]=2;
     }
-    return a;
 }
